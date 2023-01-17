@@ -1,5 +1,3 @@
-# InventoryTrackingSystem
-
 # INTRODUCTION
 An inventory tracking system that allows the admin to track the items and
 appointments requests made by the users.
@@ -25,7 +23,7 @@ get the items or use the rooms. On the other hand, the system must show the admi
 all requests and their status, where the status of the requested item or room is not
 updated until approval is made by the admin.
 
-User panel features:
+# User panel features:
 1. Creating a user account by writing his/her name, surname, faculty,
 department, phone number, password, and e-mail address. Note that the
 user can't use the new account before the admin is approving the new
@@ -47,7 +45,7 @@ and items, a confirmation letter (a PDF file) with the list of the
 requested items and the days of the request can be downloaded or
 printed.
 
-Admin panel features:
+# Admin panel features:
 1. Displaying all new accounts requests for approval. Note that if the admin
 did not approve the request, the user will not be able to log in to the
 system.
