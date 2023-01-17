@@ -1,8 +1,9 @@
-For login admin panel !important
-###Username: admin
-###Password: admin
+
 
 # INTRODUCTION
+For login admin panel !important
+Username: admin
+Password: admin
 An inventory tracking system that allows the admin to track the items and
 appointments requests made by the users.
 The website should allow the admin to make a list of equipment, where items can
