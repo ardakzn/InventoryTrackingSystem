@@ -1,0 +1,79 @@
+/*login register panels start*/
+.centered_panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+.panel {
+  
+  border-radius: 10px;
+  background-color: #ffffffc0;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 20px;
+  transition: background-color 0.4s ease-in;
+  box-shadow: 0 0 2.5em black;
+  
+}
+
+
+.panel:hover{
+  background-color: #ffffff;
+}
+
+/**/
+
+/*login register selected,non-selected h2*/
+h2 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
+ 
+}
+
+h2.non-selected{
+  color: #0d0d0d;
+  opacity: 0.5;
+  transition: opacity 0.8s;
+}
+h2.non-selected:hover {
+  
+  border-bottom: 3px solid #8c1515;
+  opacity: 1;
+}
+h2.non-selected a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+h2.selected {
+  color: #0d0d0d;
+  border-bottom: 3px solid #8c1515;
+}
+/**/
+
+.warning{
+  color:#8c1515;
+  font-weight: 600;
+  max-width: 80%;
+  margin: auto;
+  font-style: italic;
+}
+.forgotpass{
+  color:#8c1515;
+  margin-bottom: 20px;
+}
+
+.fullSize{
+  width: 70%;
+}
+.halfSize{
+  width: 34.5%;
+}
