@@ -1,6 +1,6 @@
-For login admin panel !important\n
-Username: admin\n
-Password: admin\n
+For login admin panel !important<br/>
+Username: admin<br/>
+Password: admin<br/>
 
 # INTRODUCTION
 An inventory tracking system that allows the admin to track the items and
