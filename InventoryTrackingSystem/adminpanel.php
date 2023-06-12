@@ -641,7 +641,7 @@ if(isset($_SESSION["userid"])){
                         echo "<tr>";
                         foreach($row as $key=>$value)
                             print("<td> $value</td>");
-                          print("<td><a href='https://www.google.com'>Accept</a>/<a href='https://www.youtube.com'>Reject</a></td>");
+                          //print("<td><a href='https://www.google.com'>Accept</a>/<a href='https://www.youtube.com'>Reject</a></td>");
                           
                         echo "</tr>" ;
                     } 
